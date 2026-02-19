@@ -6,7 +6,7 @@ on:
 
 jobs:
     auto-assign:
-        runs-on: ubuntu-latest
+        runs-on: blacksmith-4vcpu-ubuntu-2404
         steps:
             - name: 'Auto-assign issue'
               uses: pozil/auto-assign-issue@v1.11.0
